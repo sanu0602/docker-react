@@ -6,4 +6,4 @@ before_install:
   - docker build -t sanu0602/docker-react -f Dockerfile.dev .
 
 script:
-  - docker run sanu0602/docker-react npm run test -- --covreage
+  - docker run sanu0602/docker-react npm run test -- --coverage
